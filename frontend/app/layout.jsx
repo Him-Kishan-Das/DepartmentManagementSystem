@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 // import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+// import '../globals.css';
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -20,7 +21,7 @@ import "./globals.css";
 function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >
+      <body className='m-1'>
         {children}
       </body>
     </html>
