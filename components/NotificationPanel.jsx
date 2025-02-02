@@ -10,7 +10,7 @@ const NotificationPanel = () => {
     <div className="bg-blue-400 text-white p-4 rounded-lg w-80">
       <h2 className="text-2xl font-bold mb-4 text-center">Notifications</h2>
       <hr className="p-2" />
-      <div className="max-h-48 overflow-y-auto mb-4">
+      <div className="h-57 overflow-y-auto mb-4">
         {notifications.map((notification, index) => (
           <div key={index} className="mb-2">
             <p className="text-sm">Posted: {notification.date}</p>
